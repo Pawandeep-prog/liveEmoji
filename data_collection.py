@@ -51,7 +51,7 @@ while True:
 
 
 
-	drawing.draw_landmarks(frm, res.face_landmarks, holistic.FACE_CONNECTIONS)
+	drawing.draw_landmarks(frm, res.face_landmarks, holistic.FACEMESH_CONTOURS)
 	drawing.draw_landmarks(frm, res.left_hand_landmarks, hands.HAND_CONNECTIONS)
 	drawing.draw_landmarks(frm, res.right_hand_landmarks, hands.HAND_CONNECTIONS)
 
