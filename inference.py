@@ -57,7 +57,7 @@ while True:
 		cv2.putText(frm, pred, (50,50),cv2.FONT_ITALIC, 1, (255,0,0),2)
 
 		
-	drawing.draw_landmarks(frm, res.face_landmarks, holistic.FACE_CONNECTIONS)
+	drawing.draw_landmarks(frm, res.face_landmarks, holistic.FACEMESH_CONTOURS)
 	drawing.draw_landmarks(frm, res.left_hand_landmarks, hands.HAND_CONNECTIONS)
 	drawing.draw_landmarks(frm, res.right_hand_landmarks, hands.HAND_CONNECTIONS)
 
